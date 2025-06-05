@@ -55,7 +55,8 @@ def get_vector_index():
     #vector_index_id = "7846c928-d7c7-40de-8ac6-7e103d121f29"
     #vector_index_id = "5e2b8fb7-2d77-44a9-9b2d-f2b85e70dd88"
     #vector_index_id = "67886594-dc8d-4583-8b2b-afd9b5c30f40"
-    vector_index_id = "814deecd-4a71-48fe-9e4e-9f7917ec5e09"
+    #vector_index_id = "814deecd-4a71-48fe-9e4e-9f7917ec5e09"
+    vector_index_id = "e4062e6a-6993-446a-b597-b837a83b89fd"
     print(project_id)
     print(vector_index_id)
     vector_index_details = client.data_assets.get_details(vector_index_id)
