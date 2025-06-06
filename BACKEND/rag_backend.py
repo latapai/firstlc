@@ -189,5 +189,6 @@ __grounding__"""
     # return StreamingResponse(model.generate_text_stream(prompt=prompt.replace("__grounding__", grounding)), media_type="text/event-stream")
 
 if __name__ == "__main__":
-	uvicorn.run(app, host="localhost", port=8001)
+	#uvicorn.run(app, host="localhost", port=8001)
+    uvicorn.run(app, host="0.0.0.0", port=8001)
     #uvicorn.run(app, host="0.0.0.0", port=8501)
